@@ -4,8 +4,8 @@ services:
     container_name: postgres_db
     environment:
       POSTGRES_DB: productos_db
-      POSTGRES_USER: pass_demo
-      POSTGRES_PASSWORD: BHdNbP4LL5jJFwUp1NnjHkskKCJwuE6V
+      POSTGRES_USER: user_demo
+      POSTGRES_PASSWORD: pass_demo
     ports:
       - "5433:5432"
 
